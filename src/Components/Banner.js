@@ -1,11 +1,12 @@
 import React from "react";
 import { FaPlay } from "react-icons/fa";
 import Button from "./Button";
+import Feature from "./Feature";
 
 const Banner = () => {
   return (
     <>
-      <div className='container-xxl'>
+      <div className='container-xxl relative'>
         <div className='flex items-center justify-between'>
           <div className='md:space-y-7'>
             <h4 className='text-5xl font-semibold text-white leading-snug'>
@@ -30,6 +31,9 @@ const Banner = () => {
           <div className=''>
             <img width="500px" src='/images/hero-1.png' alt='img' />
           </div>
+        </div>
+        <div className="">
+        <Feature />
         </div>
       </div>
     </>
