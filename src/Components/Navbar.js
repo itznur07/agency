@@ -7,7 +7,7 @@ const Navbar = () => {
             <h1 className='text-4xl font-bold cursor-pointer md:text-start text-center'>Sia.</h1>
           </div>
           <nav>
-            <ul className='flex items-center md:space-x-14 space-x-4 md:text-md text-sm font-medium cursor-pointer md:text-start text-center'>
+            <ul className='flex items-center md:space-x-14 space-x-4 md:text-xl text-sm font-medium cursor-pointer md:text-start text-center'>
               <li>Home</li>
               <li>About</li>
               <li>Services</li>
