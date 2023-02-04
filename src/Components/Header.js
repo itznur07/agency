@@ -1,11 +1,17 @@
-import React from 'react'
+import React from "react";
+import Navbar from "./Navbar";
 
 const Header = () => {
+    
   return (
-    <div>
-        Header
-    </div>
-  )
-}
+    <>
+      <header className="bg-[#22AFA8] h-screen">
+        {/* Navbar here */}
+        <Navbar />
+        {/* Navbar here ends here*/}
+      </header>
+    </>
+  );
+};
 
-export default Header
+export default Header;
