@@ -1,9 +1,16 @@
+import { Route, Routes } from 'react-router-dom';
+import Layout from './Components/Layout';
+import Home from "./Pages/Home";
+
 const App = () => {
   return (
-    <div>
-      <h1 className="display-1">Bootstap5</h1>
-      <h1 className="text-7xl">Tailwind</h1>
-    </div>
+    <>
+      <Routes>
+        <Route  element={<Layout/>} >
+          <Route path='/' element={<Home />} />
+        </Route>
+      </Routes>
+    </>
   );
 }
 
