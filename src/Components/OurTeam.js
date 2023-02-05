@@ -4,13 +4,12 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 const OurTeam = () => {
   return (
     <>
-      <div className='bg-[#48a3ffc9]'>
         <div className='h-auto py-5 container-xxl'>
           <div className='space-y-4 text-center text-white'>
-            <p className='text-uppercase text-md text-white font-bold'>
+            <p className='text-uppercase text-md text-[#FEB82C] font-bold'>
               Our Teams
             </p>
-            <h1 className='text-4xl font-semibold leading-snug'>
+            <h1 className='text-4xl text-black font-semibold leading-snug'>
               Meet Our Team
             </h1>
           </div>
@@ -41,7 +40,6 @@ const OurTeam = () => {
             />
           </div>
         </div>
-      </div>
     </>
   );
 };
