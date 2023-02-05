@@ -1,5 +1,6 @@
 import React from 'react'
 import About from '../Components/About'
+import Services from '../Components/Services'
 import Summery from '../Components/SummeryBanner'
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
     <div>
         <About />
         <Summery />
+        <Services />
     </div>
   )
 }
