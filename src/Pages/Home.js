@@ -6,6 +6,7 @@ import Pricing from '../Components/Pricing'
 import ProductQue from '../Components/ProductQue'
 import Services from '../Components/Services'
 import Summery from '../Components/SummeryBanner'
+import Testimonial from '../Components/Testimonial'
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
         <FeaturedProject />
         <OurTeam />
         <Pricing />
+        <Testimonial />
     </div>
   )
 }
