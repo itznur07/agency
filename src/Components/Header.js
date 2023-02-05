@@ -6,7 +6,7 @@ const Header = () => {
     
   return (
     <>
-      <header className="bg-[#22AFA8] h-screen">
+      <header className="bg-[dodgerblue] h-screen">
         {/* Navbar here */}
         <Navbar />
         {/* Navbar ends here*/}
