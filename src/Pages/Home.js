@@ -1,5 +1,6 @@
 import React from 'react'
 import About from '../Components/About'
+import Blog from '../Components/Blog'
 import FeaturedProject from '../Components/FeaturedProject'
 import OurTeam from '../Components/OurTeam'
 import Pricing from '../Components/Pricing'
@@ -19,6 +20,7 @@ const Home = () => {
         <OurTeam />
         <Pricing />
         <Testimonial />
+        <Blog />
     </div>
   )
 }
